@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arguments\Platform\AddPlatformRequest.cs" />
+    <Compile Include="Arguments\Platform\AddPlatformResponse.cs" />
     <Compile Include="Arguments\Player\AddPlayerRequest.cs" />
     <Compile Include="Arguments\Player\AddPlayerResponse.cs" />
+    <Compile Include="Arguments\Player\AuthenticatePlayerRequest.cs" />
     <Compile Include="Arguments\Player\AuthenticatePlayerResponse.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GamePlatform.cs" />
@@ -51,14 +54,15 @@
     <Compile Include="Enum\EnumPlayerStatus.cs" />
     <Compile Include="Interfaces\Arguments\IRequest.cs" />
     <Compile Include="Interfaces\Arguments\IResponse.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPlayer.cs" />
+    <Compile Include="Interfaces\Services\IServicePlatform.cs" />
     <Compile Include="Interfaces\Services\IServicePlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ServicePlayer.cs" />
     <Compile Include="ValueObjects\Mail.cs" />
     <Compile Include="ValueObjects\Name.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Diagrams\Game.cd" />
   </ItemGroup>
