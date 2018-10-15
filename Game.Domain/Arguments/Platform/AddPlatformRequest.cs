@@ -2,7 +2,7 @@
 
 namespace Game.Domain.Arguments.Platform
 {
-    class AddPlatformRequest : IRequest
+    public class AddPlatformRequest : IRequest
     {
         public string Name { get; set; }
     }

@@ -3,7 +3,7 @@ using Game.Domain.Interfaces.Arguments;
 
 namespace Game.Domain.Arguments.Platform
 {
-    class AddPlatformResponse : IResponse
+    public class AddPlatformResponse : IResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
