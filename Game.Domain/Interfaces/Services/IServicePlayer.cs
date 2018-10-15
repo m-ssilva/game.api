@@ -1,5 +1,4 @@
-﻿using System;
-using Game.Domain.Arguments.Player;
+﻿using Game.Domain.Arguments.Player;
 
 namespace Game.Domain.Interfaces.Services
 {
